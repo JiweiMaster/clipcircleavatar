@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.syudy.studyview.MainActivity">
+
+    <!--<com.syudy.studyview.BallView.BallMoveView-->
+        <!--android:id="@+id/ballView"-->
+        <!--android:background="@android:color/holo_red_dark"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp" />-->
+
+    <!--<com.syudy.studyview.BallView.CheckCodingView-->
+        <!--android:id="@+id/checkCodeView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp" />-->
+
+    <!--<com.syudy.studyview.BallView.DrawPictureView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<com.syudy.studyview.BallView.ShaderView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<com.syudy.studyview.BallView.SweepGradientView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<com.syudy.studyview.BallView.PorterDuffxerView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <com.nrec.clipcircleavatar.ClipAvatarView
+        android:id="@+id/clipAvatarView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:text="图片数据"
+            android:id="@+id/clipButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:background="@android:color/darker_gray"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+            <ImageView
+                android:id="@+id/clipImageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <!--<ImageView-->
+            <!--android:id="@+id/clipImageView"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp" />-->
+    </LinearLayout>
+</LinearLayout>
