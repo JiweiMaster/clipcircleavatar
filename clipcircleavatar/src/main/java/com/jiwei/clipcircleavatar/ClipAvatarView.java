@@ -1,4 +1,4 @@
-package com.nrec.clipcircleavatar;
+package com.jiwei.clipcircleavatar;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -53,7 +53,7 @@ public class ClipAvatarView extends View {
             InputStream inputStream = context.getApplicationContext().getAssets().open("example.png");
             dstBitmap = BitmapFactory.decodeStream(inputStream);//获取到图片
         } catch (IOException e) {
-            Log.e(TAG,"no sourcebitmap");
+            Log.e(TAG,"no sourceBitmap");
         }
     }
 

@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.nrec.clipcircleavatar.ClipAvatarView;
+import com.jiwei.clipcircleavatar.ClipAvatarView;
 import com.syudy.studyview.BallView.BallMoveView;
 import com.syudy.studyview.BallView.CheckCodingView;
 

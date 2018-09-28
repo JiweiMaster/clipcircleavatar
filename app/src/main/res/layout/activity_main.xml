@@ -34,7 +34,7 @@
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="match_parent" />-->
 
-    <com.nrec.clipcircleavatar.ClipAvatarView
+    <com.jiwei.clipcircleavatar.ClipAvatarView
         android:id="@+id/clipAvatarView"
         android:layout_width="match_parent"
         android:layout_height="0dp"

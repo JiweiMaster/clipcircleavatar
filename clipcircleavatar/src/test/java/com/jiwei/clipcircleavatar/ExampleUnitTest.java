@@ -1,4 +1,4 @@
-package com.nrec.clipcircleavatar;
+package com.jiwei.clipcircleavatar;
 
 import org.junit.Test;
 
