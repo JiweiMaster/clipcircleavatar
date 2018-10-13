@@ -17,7 +17,7 @@ repositories {
 
 添加依赖 app.builder中
 dependencies {
-	implementation 'com.github.User:Repo:Tag'
+	implementation 'com.github.JiweiMaster:clipcircleavatar:v1.0'
 }
 
 
